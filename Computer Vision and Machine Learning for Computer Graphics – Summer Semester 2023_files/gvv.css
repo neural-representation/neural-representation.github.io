@@ -1,0 +1,21 @@
+body { margin: 0px; padding: 0px; text-align: justify; ; color: rgb(0, 0, 0); font-size:14px; font-family:'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif; background-color:rgb(255,255,255) ; }
+h1.title { margin: 0px 10px 30px; padding: 14px; padding-top: 18px; font-size: 100%; line-height: 28px; color: rgb(255, 255, 255); }
+h1 { margin: 20px 0px 0px 0px; font-size: 125%; line-height: 28px; font-weight: 900; color: black; }
+h2 { font-weight: normal; font-size: 125%; line-height: normal; color: rgb(0, 51, 102); }
+h3 { font-weight: normal; color:rgb(100, 100, 200);; font-size:120%;}
+h4 { font-weight:normal; color:#707070; margin: 0px;}
+h5 { font-weight:normal; font-size:14px; }
+p { margin: 10px 10px; padding-left: 30px; padding-top: 10px; padding-bottom: 0px; font-weight: normal; font-size: 100%; line-height: normal; }
+#Content > p { margin: 0px 20px 0px 0px; }
+table { border: 0; margin: 0px 0px 0px 0px; border-collapse: separate; border-spacing: 0px; background-color: rgb(255,255,255); font-family:'Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif; font-size:14px;}
+td { padding: 10px; line-height: normal; background-color: white; }
+th { font-size: 110%; font-weight: bold; line-height: normal;  border-bottom: 1px solid black; padding: 3px; line-height: normal; background-color: white; text-align: left; }
+ul { margin: 20px 30px 10px 10px; font-size: 100%; font-weight: normal; line-height: normal; }
+ol { margin: 0px 30px 0px 0px; font-size: 100%; font-weight: normal; line-height: normal; }
+li { margin: 3px 0px; }
+a { color: rgb(0, 51, 102); text-decoration: none; }
+a:link { color: rgb(39, 82, 178); }
+a:visited { color: rgb(39, 82, 178); }
+a:hover{color:rgb(53, 0, 0);}
+#Content { margin-left: auto; margin-right: auto; padding: 20px; width: 660px }
+

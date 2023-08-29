@@ -1,0 +1,23 @@
+hr { background-color: rgb(39, 82, 178); height: 1px; border: 0; }
+h1 { font-size: 180%; }
+img { border: 0; }
+td { font-size:100%; padding: 7px; text-align: left; }
+td.head { font-weight: bold; }
+
+div#wrap { width: 800px; margin: 0.5em auto; }
+div#wrap hr { margin: 0 -1em; }
+div#wrap table { margin: 1.25em 1em; }
+div#wrap table th, div#wrap table td { vertical-align: top; }
+
+div#footer { font-size: 80%; color: #bbb; text-align: center; padding-top: 2em; padding-bottom: 1em; }
+
+
+div#wrap table.topics { margin: 0 auto; width: 90%; border-collapse: collapse; background-color: #fff; }
+table.topics th, table.topics td { padding: 0.5em; }
+table.topics .topic, table.topics .date { font-size: 120%; font-weight: bold; }
+table.topics .topic a:hover, table.topics .date a:hover { cursor: pointer; }
+table.topics .paper, table.topics .person { padding-top: 0.75em; display: none; }
+table.topics .paper .title { font-weight: bold; }
+table.topics .paper .authors, table.topics .person .label { font-size: 85%; font-style: italic; }
+
+table.topics .none { color:#666; }
