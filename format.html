@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Computer Vision and Machine Learning for Computer Graphics – Summer Semester 2023</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="data/gvv.css">
+<link rel="stylesheet" type="text/css" href="data/seminar.css">
+</head>
+<body>
+    <div id="wrap">
+		<div style="text-align: center">
+			<a href="https://www.upenn.edu/"><img src="./data/penn.png" alt="Logos of UPenn" width="400"></a>
+		</div>
+
+		<h1 style="text-align: center;">Neural Scene Representation and Neural Rendering</h1>
+		<h2 style="text-align: center;">Seminar – Fall Semester 2023</h2>
+		<h3 style="text-align: center;">Instructor: <a href="https://lingjie0206.github.io/">Lingjie Liu</a>
+		</h3>
+		<h3 style="text-align: center;">TAs: <a href="https://cwchenwang.github.io/">Chen Wang</a>, <a
+				href="https://oscarxzq.github.io/">Oscar Xu</a></h3>
+
+		<br>
+
+		<hr>
+		<h2 style="text-align: center;">
+			<a href="./index.html">Organization</a> &nbsp;|&nbsp;
+			<a href="./topics.html">Content</a> &nbsp;|&nbsp;
+			<b>Format</b> &nbsp;|&nbsp;
+            
+			<a href="./resource.html">Resources</a>
+		</h2>
+		<hr>
+
+		<table style="margin: 1em auto;">
+			<tbody>
+				<tr>
+					<td style="text-align:center; vertical-align:middle;"><img src="./data/04_NPC.png" width="420"
+							alt="NPC"></td>
+					<td style="text-align:center; vertical-align:middle;"><img src="./data/05_DeepPhase.png" width="370"
+							alt="DeepPhase"></td>
+				</tr>
+				<tr>
+					<td style="text-align:center;"><b>Neural Point Catacaustics for Novel-View Synthesis of
+							Reflections</b><br>SIGGRAPH ASIA, 2022</td>
+					<td style="text-align:center;"><b>DeepPhase: Periodic Autoencoders for Learning Motion Phase
+							Manifolds<br></b>SIGGRAPH, 2022</td>
+				</tr>
+			</tbody>
+		</table>
+        <br>
+
+	<hr>
+	<h2>Format: Summary</h2>
+	<hr>
+
+	<h3>Each week:</h3>
+
+	<ul>
+		<li>Before the seminar:
+			<ul>
+				<li>Read the papers of the week and think about them.</li>
+				<li>Submit at least two questions for discussion before the seminar to <a href="mailto:elgharib@mpi-inf.mpg.de">elgharib@mpi-inf.mpg.de</a>. This is important &ndash; your contribution will be marked. The deadline for submitting questions is Wednesdays 8:00am.</li> 
+				<!--  cv4cg-org@lists.mpi-inf.mpg.de  cv4cg-org@lists.mpi-inf.mpg.de   --> 
+			</ul>
+		</li>
+		<li>During the seminar:
+			<ul>
+				<li>Presentation (40 minutes, 30% of grade):
+					<ul>
+						<li>One pre-assigned participant presents the topic of their choice.</li>
+						<li>Brief review of the previous week&rsquo;s topic, finding themes that join the two weeks.</li>
+						<li>~5 minutes on motivation, background and related work.</li>
+						<li>~25 minutes of presentation of the two papers, focusing on the common links between the papers.</li>
+					</ul>
+				</li>
+				<li>Discussion (40–45 minutes, 30% of grade across weeks):
+					<ul>
+						<li>One participant is assigned <b>at random</b> at the beginning of the seminar to lead the discussion. Everyone leads the discussion at least once in the seminar series.</li>
+						<li>The discussion leader receives a digest of the submitted questions just before the seminar.</li>
+<!--						<li>The discussion leader provides a summary of the strengths and weaknesses of the techniques and of the discipline, and then raises questions appropriately throughout discussion.</li>-->
+						<li>The discussion leader raises questions appropriately throughout the discussion, covers future work aspects, and finally provides a summary of the strengths and weaknesses of the techniques and of the discipline.</li>
+					</ul>
+				</li>
+				<li>Feedback (5–10 minutes, ungraded):
+					<ul>
+						<li>The students provide feedback to the presenting student on their presentation with respect to what has worked well, and what could be improved and how.</li>
+						<li>The topic supervisor and/or seminar organisers will provide additional feedback privately after the seminar.</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+
+	<br>
+	<h3>After the seminar series:</h3>
+
+	<ul class=body>
+		<li>Written report on your topic (40% of grade):
+			<ul>
+				<li>3–4 pages on the two papers.</li>
+				<li>2–3 pages on improvements and your own ideas.</li>
+				<li>Include 3–4 additional references to &lsquo;round out&rsquo; the topic and further your own ideas.</li>
+			</ul>
+		</li>
+	</ul>
+
+
+<br>
+<br>
+
+<hr>
+	<h2>Format: Details</h2>
+	<hr>
+
+	<h3>Part 1: Presentation (30% of grade)</h3>
+
+	<p>
+		Each participant will perform a detailed study of one research topic by means of two representative scientific papers. The participant will present the main ideas of the papers in a presentation of approximately 40 minutes. Usually, this means that content has to be selected from the two representative papers, and it will often not be possible to discuss all results presented therein. Instead, try to focus on finding a common thread linking the two papers on which you can build your presentation. Work on the topic usually requires reading and understanding the papers, as well as acquiring background information necessary to understand the topic. For extra background knowledge, some of the papers and books referenced in the papers may have to be consulted.
+	</p>
+
+	<p>
+		At the beginning of your presentation, you will spend one or two minutes summarizing the previous week's presentations. The aim of this section is to recap for the audience, and for you to tease out connections between the content across weeks. All of the topics are connected in one way or another, and in these few minutes you should try to establish these connections as a way to part-motivate your presentation.
+	</p>
+
+	<p>
+		If you use formulas, make sure that all symbols are introduced properly. Similarly, make sure that figures are labelled correctly and that new terminology is introduced appropriately. You may assume that your audience is familiar with topics that have been presented in class earlier, and have read the papers for your week. It is very important for a good presentation to find a balance between overview and detail. Most importantly, the general theme of your topic should become clear from your presentation. Your goal is that the other participants will have understood your critical analysis of the two papers after your presentation. Finally, prepare your presentation on time and plan to spend some time on practicing your talk. Our feedback afterwards will help you improve future presentations.
+	</p>
+
+	<h3>Part 2: Discussion (30% of grade across weeks)</h3>
+
+	<p>
+		The presentation will be followed by a discussion among the seminar participants. This discussion will be chaired by the discussion leader, who will be one of the participants. Before the presentation, one participant will be chosen at random to be the discussion leader. Their job is to direct discussion such that the strengths and weaknesses of the techniques and of the field are discussed, that open questions and future directions of the work are discussed, and that questions of other participants are fielded.
+	</p>
+
+	<p>
+		Each week, every participant will <b>submit at least two specific questions</b> that they would like answered on the upcoming week's papers. These questions will be submitted to <a href="mailto:elgharib@mpi-inf.mpg.de">elgharib@mpi-inf.mpg.de</a> before the seminar. The questions will be given to the discussion leader, and it is their job to integrate them into the discussion. For participants, these questions act as evidence of participation, and your overall participation score will be based on the quality of your questions and your involvement in the discussion.
+	</p>
+
+	<p>
+		Participants are expected to <b>read every paper</b> in preparation for the upcoming presentations. Initially, we will teach you how to read an academic paper, and each week at least one expert member of staff will be available to answer questions. We expect students to actively engage in discussions for further understanding of the presented material. We aim for a creative atmosphere – ideas developed during the seminar work might lead to Masters thesis projects.
+	</p>
+
+	<h3>Part 3: Written report (40% of grade)</h3>
+
+	<p>
+		In addition to the in-class presentation, we require a written report on the chosen topic. This report should summarize the main ideas of the accompanying papers and critically analyze limitations of the works. In addition, participants should develop and sketch their own idea of how to address one specific shortcoming. The report should consist of 3–4 pages covering the presented papers and about 2–3 pages covering the improvement proposed by the student.
+	</p>
+
+	<p>
+		The written report uses a template of a major computer vision conference, the <a href="https://cvpr2022.thecvf.com/">IEEE Conference on Computer Vision and Pattern Recognition</a>. Please use the review version of this template, as this makes it easier to refer to certain parts of your text. For your convenience we provide the <a href="https://cvpr2022.thecvf.com/sites/default/files/2021-10/cvpr2022-author_kit-v1_1-1.zip">template links here</a>. The submission format has to be PDF, and the use of LaTeX is strongly encouraged.
+	</p>
+
+	<p>
+		We will grade your report based on a number of criteria. Try to link the two articles in a coherent text – a structure with one paper following the other is usually insufficient. Also, try to avoid copying the structure of the original papers, do not stick too closely to the original text, and use your imagination to find a way of presenting the topic in your own words. Equations can of course be reproduced. The articles have been chosen such that they provide different views on a common theme – you should focus on finding connections in concepts and to look through the ‘academic apparatus’ of the writing.
+	</p>
+
+	<p>
+		Keep in mind to structure your paper formally: An abstract provides a short overview. The introduction expands on that, explains why the problem is unsolved/hard, and motivates the use of the technique. In a technical section, you present your topic and the details that are of interest to you. Here you can also expand on the subject, i.e., add your own ideas. Finally, a conclusion summarizes the paper. This is also the place where you can add your own opinions about the topic.
+	</p>
+
+	<p>
+		We encourage you to use additional literature in the development of your own ideas. We expect at least 3–4 additional references; if you want to include more, you are welcome to do so. Cite the references appropriately, for example if you use concepts from different publications or if you want to link to additional information. Use these other references to create a ‘big picture’ of the field.
+	</p>
+
+	<p>
+		Your own ideas can be developed from scratch – if you have a great idea, try to sketch it and a possible solution. The report is also an excellent opportunity to take some of the discussion from the seminar sessions and integrate the gained context and ideas. You can also discuss limitations or ideas that you feel are missing from the papers. A further possibility is to research recent developments following the papers of your topic. If you pursue this route, you could base your “own ideas” section on several follow-up publications, but make sure that you do not simply copy parts of other papers! A good resource for free links to research articles is <a href="http://scholar.google.com">Google Scholar</a>. The “cited by” option often links to useful related work. Another source of freely available scientific articles is <a href="http://citeseerx.ist.psu.edu/">Citeseer</a>. If you can only find a link behind a paywall, send us an email and we will try to get you a copy.
+	</p>
+
+
+
+
+
+</div>
+
+
+
+
+<div id="footer">
+	Copyright 2023 by <a href="http://www.mpi-inf.mpg.de/" title="Home Page of the Max-Planck-Institute Informatik">Max-Planck-Institut&nbsp;Informatik</a> | <a href="https://imprint.mpi-klsb.mpg.de/inf/vcai.mpi-inf.mpg.de" title="Impressum and legal notices">Imprint</a> | <a href="https://data-protection.mpi-klsb.mpg.de/inf/vcai.mpi-inf.mpg.de?lang=en/" title="Data Protection">Data Protection</a><br>
+</div>
+
+</body>
+</html>
