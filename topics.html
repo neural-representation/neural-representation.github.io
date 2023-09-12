@@ -12,7 +12,7 @@
 	<script type="text/javascript">
 		function togglePapers(o) {
 			$(o).parents('table.topics tr').find('.paper').toggle();
-			$(o).parents('table.topics tr').find('.person').toggle();
+			// $(o).parents('table.topics tr').find('.person').toggle();
 		}
 
 		function showAllPapers() {
@@ -24,7 +24,7 @@
 
 		function hideAllPapers() {
 			$('div.paper').hide();
-			$('div.person').hide();
+			// $('div.person').hide();
 			$('a.showpapers').show();
 			$('a.hidepapers').hide();
 		}
@@ -96,23 +96,13 @@
 			Send us an email if you cannot access a paper for some reason.
 		</p>
 
-		<div style="text-align:center;">
-			<p>
-				Click on each topic to show the papers to be discussed or
-				<a href="javascript:showAllPapers()" class="showpapers">show all papers</a><a
-					href="javascript:hideAllPapers()" class="hidepapers" style="display: none;">hide all papers</a>.
-			</p>
-		</div>
-
 
 		<table class="topics" border="1">
 
-
 			<tr>
-				<th>Topic and Papers</th>
+				<th>Paper Presenting Schedule</th>
 				<th width="120">Presentation</th>
 			</tr>
-
 			<tr>
 				<td>
 					<div class="topic"><a onclick="togglePapers(this)">Introduction</a></div>
@@ -142,11 +132,253 @@
 
 				<td align="center">
 					<div class="date"><a onclick="togglePapers(this)"> <i>Sep 6</i></a></div>
+				</td>
+			</tr>
 
+			<tr>
+				<td>
+					<!-- <div class="topic"><a onclick="togglePapers(this)">Fast Training</a></div> -->
+					<div>
+						<div class="title"><a href="https://arxiv.org/abs/2201.05989">Instant Neural Graphics Primitives
+								with a Multiresolution Hash Encoding</a></div>
+						<div class="authors">Müller et al.</div>
+						<div class="venue">ACM ToG 2022</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Sep 13</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Heguang Lin</div>
+					</div>
 
 				</td>
 			</tr>
 
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://jiataogu.me/nerfdiff/">NerfDiff: Single-image View Synthesis
+								with
+								NeRF-guided Distillation from 3D-aware Diffusion</a></div>
+						<div class="authors">Gu et al.</div>
+						<div class="venue">ICML 2023</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Sep 18</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Rahul Aggarwal</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://dreamfusion3d.github.io/">DreamFusion: Text-to-3d using 2D
+								diffusion</a></div>
+						<div class="authors">Poole et al.</div>
+						<div class="venue">ICLR 2023</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Sep 20</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Jiahang Mao</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://nvlabs.github.io/eg3d/">EG3D: Efficient Geometry-aware 3D
+								Generative Adversarial Networks</a></div>
+						<div class="authors">Chan et al.</div>
+						<div class="venue">CVPR 2022</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Sep 25</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Daniel Mika</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://hypernerf.github.io/">HyperNeRF: A Higher-Dimensional
+								Representation for Topologically Varying Neural Radiance Fields
+							</a></div>
+						<div class="authors">Park et al.</div>
+						<div class="venue">SIGGRAPH ASIA 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Sep 27</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Trevor Chan</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://vcai.mpi-inf.mpg.de/projects/NeuralActor/">Neural Actor:
+								Neural Free-view Synthesis of Human Actors with Pose Control
+							</a></div>
+						<div class="authors">Liu et al.</div>
+						<div class="venue">SIGGRAPH ASIA 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 2</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Rohit Jena</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://arxiv.org/abs/2012.03927/">NeRV: Neural Reflectance and
+								Visibility Fields for Relighting and View Synthesis
+							</a></div>
+						<div class="authors">Srinivasan et al.</div>
+						<div class="venue">CVPR 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 4</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Yi Liu</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://arxiv.org/abs/2104.00674">PhySG: Inverse Rendering with
+								Spherical Gaussians for Physics-based Material Editing and Relighting</a></div>
+						<div class="authors">Zhang et al.</div>
+						<div class="venue">CVPR 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 9</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Keyu Lu</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://arxiv.org/abs/2206.06577">Physics Informed Neural Fields for
+								Smoke Reconstruction with Sparse Data
+							</a></div>
+						<div class="authors">Chu et al.</div>
+						<div class="venue">SIGGRAPH 2022</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 11</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Yuhan Liu</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://lingjie0206.github.io/papers/NeuS/">NeuS: Learning Neural
+								Implicit
+								Surfaces by Volume Rendering for Multi-view Reconstruction
+							</a></div>
+						<div class="authors">Wang et al.</div>
+						<div class="venue">NeurIPS 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 16</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Siyuan Huang</div>
+					</div>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div>
+						<div class="title"><a href="https://lioryariv.github.io/volsdf/">Volume Rendering
+								of Neural Implicit Surfaces
+							</a></div>
+						<div class="authors">Yariv et al.</div>
+						<div class="venue">NeurIPS 2021</div>
+					</div>
+				</td>
+
+				<td align="center">
+					<div class="date"><a> <i>Oct 18</i></a></div>
+
+					<div class="person">
+						<div class="label">Presenter: Shutong Wu</div>
+					</div>
+
+				</td>
+			</tr>
+
+		</table>
+
+		<div style="text-align:center;">
+			<p>
+				Click on each topic to show the papers to be discussed or
+				<a href="javascript:showAllPapers()" class="showpapers">show all papers</a><a
+					href="javascript:hideAllPapers()" class="hidepapers" style="display: none;">hide all papers</a>.
+			</p>
+		</div>
+		<table class="topics" border="1">
+
+			<tr>
+				<th>Topic and Papers</th>
+				<!-- <th width="120">Presentation</th> -->
+			</tr>
 
 
 			<tr>
@@ -171,7 +403,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)"> <i>Sep 11, 13</i></a></div>
 
 					<div class="person">
@@ -184,7 +416,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 			<tr>
@@ -204,7 +436,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)"> <i>Sep 18, 20</i></a></div>
 
 					<div class="person">
@@ -217,7 +449,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -240,7 +472,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)"> <i>Sep 25, 27</i></a></div>
 
 					<div class="person">
@@ -253,7 +485,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -277,7 +509,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -290,7 +522,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -311,8 +543,8 @@
 					</div>
 				</td>
 
-				<td align="center">
-					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
+				<!-- <td align="center"> -->
+				<!-- <div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
 						<div class="label">Presenter:</div>
@@ -324,7 +556,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 			<tr>
@@ -345,7 +577,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -358,7 +590,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -382,7 +614,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -395,7 +627,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -418,7 +650,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -431,7 +663,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -454,7 +686,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -467,7 +699,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -490,7 +722,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -503,7 +735,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -526,7 +758,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -539,7 +771,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
@@ -564,7 +796,7 @@
 					</div>
 				</td>
 
-				<td align="center">
+				<!-- <td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
 					<div class="person">
@@ -577,7 +809,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 			<tr>
@@ -599,7 +831,7 @@
 						<div class="venue">CoRL 2023</div>
 					</div>
 				</td>
-
+				<!-- 
 				<td align="center">
 					<div class="date"><a onclick="togglePapers(this)">Date: TBD</a></div>
 
@@ -613,7 +845,7 @@
 						<div class="name"><a href=".">TBD</a></div>
 					</div>
 
-				</td>
+				</td> -->
 			</tr>
 
 
